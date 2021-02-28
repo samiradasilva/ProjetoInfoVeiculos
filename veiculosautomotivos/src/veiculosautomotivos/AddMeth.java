@@ -25,3 +25,5 @@ public class AddMeth {
 	}
 
 }
+//Resultado no console: Minivan can carry 7. Range is 336
+//Resultado no console: Sportcar can carry 2. Range is 336
