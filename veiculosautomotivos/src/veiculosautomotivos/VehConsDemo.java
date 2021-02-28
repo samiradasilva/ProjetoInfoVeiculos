@@ -4,7 +4,7 @@ public class VehConsDemo {
 
 	public static void main(String[] args) {
 
-		// constrói veículos completos
+		//constrói veículos completos
 		Vehicle minivan = new Vehicle(7, 16, 21);
 		Vehicle sportcar = new Vehicle(2, 14, 12);
 		double gallons;
@@ -19,5 +19,6 @@ public class VehConsDemo {
 	}
 
 }
+// projeto finalizado com a criação dos objetos Vehicle minivan e sportcar 
 //Resultado no console: To go 252 miles minivan needs 12.0 gallons of fuel.
 //Resultado no console: To go 252 miles sportcar needs 21.0 gallons of fuel.
