@@ -5,8 +5,8 @@ public class TwoVehicles {
 	public static void main(String[] args) {
 
 		//classe que declara um objeto de tipo Vehicle (Veículo)
-		Vehicle minivan = new Vehicle();
-		Vehicle sportcar = new Vehicle();
+		Vehicle minivan = new Vehicle(0, 0, 0);
+		Vehicle sportcar = new Vehicle(0, 0, 0);
 		int range1, range2;
 
 		// atribui valores a campos de minivan

@@ -4,8 +4,8 @@ public class RetMeth {
 
 	public static void main(String[] args) {
 
-		Vehicle minivan = new Vehicle();
-		Vehicle sportcar = new Vehicle();
+		Vehicle minivan = new Vehicle(0, 0, 0);
+		Vehicle sportcar = new Vehicle(0, 0, 0);
 
 		minivan.passengers = 7;
 		minivan.fuelcap = 16;

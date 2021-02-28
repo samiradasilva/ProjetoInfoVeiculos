@@ -1,29 +1,21 @@
 package veiculosautomotivos;
 
-public class CompFuel {
+public class VehConsDemo {
 
 	public static void main(String[] args) {
 
-		Vehicle minivan = new Vehicle(0, 0, 0);
-		Vehicle sportcar = new Vehicle(0, 0, 0);
+		// constrói veículos completos
+		Vehicle minivan = new Vehicle(7, 16, 21);
+		Vehicle sportcar = new Vehicle(2, 14, 12);
 		double gallons;
 		int dist = 252;
-
-		// atribui valores a campos de minivan
-		minivan.passengers = 7;
-		minivan.fuelcap = 16;
-		minivan.mpg = 21;
-
-		// atribui valores a campos de sportcar
-		sportcar.passengers = 2;
-		sportcar.fuelcap = 14;
-		sportcar.mpg = 12;
 
 		gallons = minivan.fuelneeded(dist);
 		System.out.println("To go " + dist + " miles minivan needs " + gallons + " gallons of fuel.");
 
 		gallons = sportcar.fuelneeded(dist);
 		System.out.println("To go " + dist + " miles sportcar needs " + gallons + " gallons of fuel.");
+
 	}
 
 }
