@@ -6,8 +6,13 @@ public class Vehicle { // usa valor de retorno
 	int fuelcap; // capacidade de armazenamento de combustível em galões;
 	int mpg; // consumo de combustível em milhas por galão
 
-	// exibe a autonomia 
-	int range () {
+	// retorna a autonomia
+	int range() {
 		return mpg * fuelcap;
+	}
+
+	// Calcula o combustível necessário p/ cobrir uma determinada distância
+	double fuelneeded(int miles) {
+		return (double) miles / mpg;
 	}
 }
